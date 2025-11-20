@@ -1,7 +1,31 @@
-body {}
-h1{
+body {
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+h1,
+h3 {
     display: flex;
     justify-content: center;
+    padding: 10px;
+}
+
+
+.scoreSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameZone {
+    background-color: rgba(6, 49, 84, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 auto;
+    width: 40%;
+    border-radius: 10px;
 }
 
 .firstRowFormat {
@@ -11,6 +35,7 @@ h1{
     align-items: center;
     align-content: center;
     margin: 20px;
+
 }
 
 .one {
@@ -18,8 +43,8 @@ h1{
     align-items: center;
     background-color: green;
     margin: 10px;
-    width: 15%;
-    height: 150px;
+    width: 40%;
+    height: 180px;
     border-radius: 10px;
     justify-content: center;
 }
@@ -29,8 +54,8 @@ h1{
     align-items: center;
 
     margin: 10px;
-    width: 15%;
-    height: 150px;
+    width: 40%;
+    height: 180px;
     border-radius: 10px;
     background-color: red;
     justify-content: center;
@@ -44,6 +69,7 @@ h1{
     align-content: center;
     margin: 20px;
     justify-content: center;
+
 }
 
 .three {
@@ -51,10 +77,10 @@ h1{
     align-items: center;
     justify-content: center;
     margin: 10px;
-    width: 15%;
-    height: 150px;
+    width: 40%;
+    height: 180px;
     border-radius: 10px;
-    background-color: purple;
+    background-color: lightblue;
 }
 
 .four {
@@ -62,8 +88,13 @@ h1{
     align-items: center;
     justify-content: center;
     margin: 10px;
-    width: 15%;
-    height: 150px;
+    width: 40%;
+    height: 180px;
     border-radius: 10px;
     background-color: yellow;
 }
+
+/* .circle {
+    border-radius: 50%;
+    background-color: burlywood;
+} */
